@@ -1,4 +1,9 @@
-# JavaLearn
+# JAVA学习
 
-###JAVA基础语法学习
+## JAVA基础部分学习
+### JAVA基础
+### J2EE基础
 
+## JAVA框架入门
+### hibernate框架入门
+### Spring框架入门
