@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="tmall@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="tmall">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bill"/>
+    <schema id="4" parent="1" name="blog"/>
+    <schema id="5" parent="1" name="cart"/>
+    <schema id="6" parent="1" name="demobase"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="performance_schema"/>
+    <schema id="10" parent="1" name="sys"/>
+    <table id="11" parent="2" name="category"/>
+    <table id="12" parent="2" name="order_"/>
+    <table id="13" parent="2" name="orderitem"/>
+    <table id="14" parent="2" name="product"/>
+    <table id="15" parent="2" name="productimage"/>
+    <table id="16" parent="2" name="property"/>
+    <table id="17" parent="2" name="propertyvalue"/>
+    <table id="18" parent="2" name="review"/>
+    <table id="19" parent="2" name="user"/>
+    <column id="20" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="11" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="22" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="12" name="orderCode">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="25" parent="12" name="address">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="26" parent="12" name="post">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="27" parent="12" name="receiver">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="28" parent="12" name="mobile">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="29" parent="12" name="userMessage">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="12" name="createDate">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="31" parent="12" name="payDate">
+      <Position>9</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="32" parent="12" name="deliveryDate">
+      <Position>10</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="33" parent="12" name="confirmDate">
+      <Position>11</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="34" parent="12" name="uid">
+      <Position>12</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="35" parent="12" name="status">
+      <Position>13</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="36" parent="12" name="fk_order_user">
+      <ColNames>uid</ColNames>
+    </index>
+    <key id="37" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="38" parent="12" name="fk_order_user">
+      <ColNames>uid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="39" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="40" parent="13" name="pid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="41" parent="13" name="oid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="42" parent="13" name="uid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="43" parent="13" name="number">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <index id="44" parent="13" name="fk_orderitem_product">
+      <ColNames>pid</ColNames>
+    </index>
+    <index id="45" parent="13" name="fk_orderitem_user">
+      <ColNames>uid</ColNames>
+    </index>
+    <key id="46" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="47" parent="13" name="fk_orderitem_product">
+      <ColNames>pid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>product</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="48" parent="13" name="fk_orderitem_user">
+      <ColNames>uid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="49" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="50" parent="14" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="51" parent="14" name="subTitle">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="14" name="orignalPrice">
+      <Position>4</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="53" parent="14" name="promotePrice">
+      <Position>5</Position>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="54" parent="14" name="stock">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="55" parent="14" name="cid">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="56" parent="14" name="createDate">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <index id="57" parent="14" name="fk_product_category">
+      <ColNames>cid</ColNames>
+    </index>
+    <key id="58" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="59" parent="14" name="fk_product_category">
+      <ColNames>cid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>category</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="60" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="61" parent="15" name="pid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="62" parent="15" name="type">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="63" parent="15" name="fk_productimage_product">
+      <ColNames>pid</ColNames>
+    </index>
+    <key id="64" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="65" parent="15" name="fk_productimage_product">
+      <ColNames>pid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>product</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="66" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="67" parent="16" name="cid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="68" parent="16" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="69" parent="16" name="fk_property_category">
+      <ColNames>cid</ColNames>
+    </index>
+    <key id="70" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="71" parent="16" name="fk_property_category">
+      <ColNames>cid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>category</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="72" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="73" parent="17" name="pid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="74" parent="17" name="ptid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="75" parent="17" name="value">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <index id="76" parent="17" name="fk_propertyvalue_product">
+      <ColNames>pid</ColNames>
+    </index>
+    <index id="77" parent="17" name="fk_propertyvalue_property">
+      <ColNames>ptid</ColNames>
+    </index>
+    <key id="78" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="79" parent="17" name="fk_propertyvalue_product">
+      <ColNames>pid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>product</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="80" parent="17" name="fk_propertyvalue_property">
+      <ColNames>ptid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>property</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="81" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="82" parent="18" name="content">
+      <Position>2</Position>
+      <DataType>varchar(4000)|0</DataType>
+    </column>
+    <column id="83" parent="18" name="uid">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="84" parent="18" name="pid">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="85" parent="18" name="createDate">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <index id="86" parent="18" name="fk_review_product">
+      <ColNames>pid</ColNames>
+    </index>
+    <index id="87" parent="18" name="fk_review_user">
+      <ColNames>uid</ColNames>
+    </index>
+    <key id="88" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="18" name="fk_review_user">
+      <ColNames>uid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="90" parent="18" name="fk_review_product">
+      <ColNames>pid</ColNames>
+      <RefSchemaName>tmall</RefSchemaName>
+      <RefTableName>product</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="91" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="92" parent="19" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="93" parent="19" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="94" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
