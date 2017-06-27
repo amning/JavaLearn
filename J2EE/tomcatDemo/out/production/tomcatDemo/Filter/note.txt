@@ -1,0 +1,23 @@
+开发一个简单的FirstFilter，用来打印用户访问ip地址和访问的页面
+
+HttpServletRequest request = (HttpServletRequest) req;
+
+
+doFilter()方法中的req参数的类型是ServletRequest，需要转换为HttpServletRequest类型方便调用某些方法 (参考request常见方法)
+
+String ip = request.getRemoteAddr();
+
+
+获取来路用户的ip地址
+
+String url = request.getRequestURL().toString();
+
+
+获取用户访问的页面地址
+
+System.out.printf("%s %s 访问了 %s%n", date, ip, url);
+
+
+在控制台打印出来
+
+chain.doFilter(request, response);

@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="album:war exploded">
+    <output-path>$PROJECT_DIR$/../apache-tomcat-9.0.0.M20/webapps/ROOT/WEB-INF</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="album/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="album" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="file-copy" path="D:/JavaLearn/Spring/helloSpring/lib/junit-3.8.2.jar" />
+        </element>
+        <element id="module-output" name="album" />
+      </element>
+    </root>
+  </artifact>
+</component>

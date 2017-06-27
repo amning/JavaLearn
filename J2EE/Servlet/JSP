@@ -1,0 +1,148 @@
+JSP执行过程：
+    1. 把 hello.jsp转译为hello_jsp.java
+    2. hello_jsp.java 位于
+        d:\tomcat\work\Catalina\localhost\_\org\apache\jsp
+    3. hello_jsp.java是一个servlet
+    4. 把hello_jsp.java 编译为hello_jsp.class
+    5. 执行hello_jsp，生成html
+    6. 通过http协议把html 响应返回给浏览器
+JSP页面元素：
+    1.静态内容
+        html,css,javascript
+    2. 指令
+        以<%@开始 %> 结尾，比如<%@page import="java.util.*"%>
+    3.表达式 <%=%>
+        用于输出一段html
+    4. Scriptlet
+        在<%%> 之间，可以写任何java 代码
+    5. 声明
+        在<%!%> 之间可以声明字段或者方法。但是不建议这么做。
+    6. 动作
+        <jsp:include page="Filename" > 在jsp页面中包含另一个页面。在包含的章节有详细的讲解
+    7. 注释 <%-- -- %>
+        不同于 html的注释 <!-- --> 通过jsp的注释，浏览器也看不到相应的代码，相当于在servlet中注释掉了
+
+JSP之cookie
+    1.cookie定义
+        一种浏览器跟服务器数据交互的方式，由服务器创建，但是不存在服务器
+            创建好之后发给浏览器，存在本地端，下一次访问，浏览器将cookie再发送给服务器；
+
+    2.setCookie
+        1) 创建Cookie
+            Cookie c= new Cookie("name","Gareen");//创建了一个cookie 名字为name 值为Gareen
+        2) 设置保留时间
+            c.setMaxAge(24*60*60);//表示cookie可以保留一天，如果是0则表示浏览器一关闭就销毁
+        3) 设置服务器主机
+            c.setPath("127.0.01");//只有浏览器通过这个主机名访问服务器的时候，才会提交cookie到服务端
+        4) 保存cookie在本地端
+            response.addCookie(c);
+
+    3.getCookie
+        1) 获取浏览器传递的cookie
+            Cookie[] cookies = request.getCookies();
+        2) 如果浏览器端没有任何cookie，得到的cookie数组为null
+            if(null!=cookies)
+        3) 遍历所有的cookie
+            for(int d= 0;d<=cookies.length-1;d++){
+                out.print(cookie[d].getName()+"."+cookies[d].getValue()+"<br>");
+            }
+JSP之Session
+    1.什么是Session
+        即会话，从用户打开浏览器访问一个网站开始，无论在这个网站中访问了多少页面，多少连接，都属于同一个会话，
+            直到用户关闭浏览器为止，都属于同一个会话。
+    2.设置Session
+        session.setAttribute("name","teemo");
+            session对象保存数据方式：name为键 temmo为值 与Map(key-value)类似
+    3.获取Session
+        session.getAttribute("name");//通过session。根据"name"取出对应的名称
+
+JSP之作用域
+    1.pageContext 当前页面
+        pageContext.setAttribute("name","gareen");
+        pageContext.getAttribute("name");
+            只能当前页面访问，在其他页面不可以访问（返回null）
+
+    2.requestContext 一次请求
+        request.setAttribute("name","gareen");
+        request.getAttribute("name");
+            本次请求结束，数据被回收
+        -->request与服务端跳转：
+            发生服务端跳转，仍为一次请求，requestContext中设置的值在跳转后可以提取，这是一种页面间传递数据的方式
+        -->request与客户端跳转：
+            客户端跳转，浏览器发起一次新的访问，新的访问会产生一个新的request对象
+                所以页面间客户端跳转情况下，是无法通过request传递数据的
+
+    3.sessionContext 当前会话
+        即当前会话数据共享，页面间传递数据，可以通过session传递，但是不同用户对应的session不同，
+        session无法在不同的用户之间共享数据
+        session.setAttribute("name","gareen");
+        response.sendRedirect("getContext.jsp");//页面间数据传递
+        session.getAttribute("name");
+
+
+    4.applicationContext全局，所有用户共享
+        全局共享，所有的用户共享一个数据
+        在JSP中使用application对象，application对象是ServletContext接口的实例
+            也可以通过request.getServletContext()获取
+                application == request.getServletContext()返回true
+                    application映射的就是web应用本身
+
+JSP之隐式对象
+     定义
+        不需要显示定义直接可以使用的对象
+     9个隐式对象
+        1.request，response，out
+        2.pageContext，session，application
+        3.page，config，exception
+            page
+                即表示当前对象
+            config
+                获取一些在web.xml中初始化的参数
+                    1)在web.xml中进行配置
+                    2)创建一个testconfig.jsp
+                        通过config.getInitParameter("database-ip")获取参数
+                    3)访问路径，获取web.xml中配置的参数
+                        127.0.0.1/testconfig
+            exception
+                只有当前页面的<%@page 指令设置为isErrorPage="true"的时候才能使用
+                同时，在其他页面也要设置<%@page指令errorPage=""来指定一个专门处理异常的页面
+                    1)准备一个try.jsp
+                        设置errorPage="catch.jsp",表示有异常产生的话，就交给catch.jsp处理
+                    2)准备一个catch.jsp
+                        设置isErrorPage="true",表示当前页面可以使用excepiton对象
+JSP之JSTL
+    JSTL:JSP Standard Tag Library标准标签库
+
+JSP之EL
+    1.JavaBean标准
+        1) 提供无参public的构造方法
+        2) 每个属性，都有public的getter和setter
+      获取JavaBean的属性 用 . 符号操作。
+            <%
+            Bean hero = new Bean();
+            hero.setName("盖伦");
+            hero.sethp(568);
+            request.setAttribute("hero",hero);
+            %>
+
+            英雄名字：${hero.name}
+            英雄HP：${hero.hp}
+    2.进行条件判断，大大简化了 JSTL的 c:if 和 c:choose 代码
+            eq相等 ne、neq不相等，
+            gt大于， lt小于
+            gt大于， lt小于
+            gte、ge大于等于
+            lte、le 小于等于
+            not非 mod求模
+            is [not] div by是否能被某数整除
+            is [not] even是否为偶数
+            is [not] odd是否为奇
+        例如：${killNumber ge 10? "超神":"还没超神" }
+            相当于：c:if 的用法，运行结果：
+                    <c:if test="${killNumber>=10}">
+                    超神
+                    </c:if>
+                    <c:if test="${killNumber<10}">
+                    还没超神
+                    </c:if>
+                    <br>
