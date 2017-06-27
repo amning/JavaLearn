@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="many2many.bean.User" table="user">
+        <id name="uid" column="uid">
+            <generator class="native"></generator>
+        </id>
+        <property name="userName" column="username"></property>
+        <property name="userPassword" column="userpassword"></property>
+
+        <!--
+        name:角色set集合名称
+        table：第三张表格名称
+        -->
+        <set name="roleSet" table="user_role" cascade="save-update">
+            <!--
+               key:配置当前映射文件在第三章表外键名称,即用户外键
+           -->
+
+            <key column="userid"></key>
+            <!--
+                class:角色实体类全路径
+                column：角色在第三张表外键名称
+                -->
+            <many-to-many class="many2many.bean.Role" column="roleid"></many-to-many>
+        </set>
+    </class>
+
+</hibernate-mapping>

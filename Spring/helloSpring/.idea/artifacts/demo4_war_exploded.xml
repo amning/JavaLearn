@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo4:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo4_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="demo4/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="accountMoney" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-aspects-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-core-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-context-support-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-expression-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-context-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-beans-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-aop-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-test-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/spring-tx-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/aspectj-1.8.10.jar" />
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="Arquillian JUnit:Release" />
+          <element id="library" level="project" name="org.thymeleaf:thymeleaf-spring4:Release1" />
+          <element id="library" level="project" name="org.thymeleaf:thymeleaf:Release1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

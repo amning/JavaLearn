@@ -1,0 +1,9 @@
+1 创建service类，创建dao类，在service得到dao对象
+(1)创建dao和service类对象
+(2)在service类里定义dao类型
+    添加注解：
+    @Autowired -->自动注入
+    @Resource -->name属性 准确制定注入对象  即注解创建dao对象value值
+2 配置文件和注解混合使用
+(1) 创建对象-->配置文件
+(2) 属性-->注解

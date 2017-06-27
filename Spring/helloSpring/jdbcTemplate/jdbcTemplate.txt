@@ -1,0 +1,9 @@
+使用spring实现增删改查
+1、依赖连接池获取数据库连接 构造连接池
+2、创建对象，设置数据库信息
+3、创建jdbcTemplate对象，设置数据源
+4、调用jdbcTemplate对象方法
+
+
+查询单个，进行对象返回时，调用jdbcTemplate.queryForObject(sql,new MyRowMapper(),"username");
+其中第二个参数是接口RowMapper 需要自己写类实现接口，自己做数据封装
