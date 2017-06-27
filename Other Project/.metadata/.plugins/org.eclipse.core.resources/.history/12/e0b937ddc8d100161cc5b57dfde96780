@@ -1,0 +1,38 @@
+import java.util.*;
+
+public class SortMountains {
+	
+	LinkedList <Mountain> m  = new LinkedList< Mountain>();
+	class NameCompare implements Comparator<Mountain>{
+		public int compare(Mountain one,Mountain two){
+			return one.name.compareTo(two.name);		
+		}
+		
+	}
+	class HeighCompare implements Comparator<Mountain>{
+		public int compare(Mountain one,Mountain two){
+			return (two.height+one.height);
+			
+			
+		}
+		
+	}
+	public static void main(String []  args){
+		new SortMountains().go();
+		
+	}
+	public void go(){
+		m.add(new Mountain("longs",14255));
+		m.add(new Mountain("count",14252));
+		m.add(new Mountain("bdasdf",14254));
+		m.add(new Mountain("yjvdf",14245));
+		
+		System.out.println("as entered:\n"+m);
+		NameCompare n = new NameCompare();
+		Collections.sort(m,n);
+		System.out.println("as name:\n"+m);
+		HeighCompare h = new HeighCompare();
+		Collections.sort(m,h);
+		System.out.println("as height:\n"+m);
+	}
+}

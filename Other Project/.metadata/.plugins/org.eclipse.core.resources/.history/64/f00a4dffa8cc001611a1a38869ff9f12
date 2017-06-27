@@ -1,0 +1,139 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
+import java.util.*;
+import javax.swing.*;
+
+public class QuizCardBuilder {
+	
+	private JTextArea question;
+	private JTextArea answer;
+	private ArrayList<QuizCard> cardList;
+	private JFrame frame;
+public static void main(String[] args){
+	QuizCardBuilder builder = new QuizCardBuilder();
+	builder.go();
+}
+	public void go(){
+		//创建ui
+		frame = new JFrame("Quiz Card Builder");//创建框架
+		JPanel mainPanel = new JPanel();//创建panel
+		Font bigFont = new Font("sanserif",Font.BOLD,24);//设置字符字体格式
+		question = new JTextArea(6,20); //创建question文本区域 6行20个字
+		/*
+		 * 对文本区域进行设置
+		 * 
+		 */
+		//question
+		question.setLineWrap(true);//设置自动换行
+		question.setFont(bigFont);//设置字符格式
+		question.setWrapStyleWord(true);//
+		
+		JScrollPane qS = new JScrollPane(question);
+		qS.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		qS.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		//answer
+		answer= new JTextArea(6,20);
+		answer.setLineWrap(true);//设置自动换行
+		answer.setFont(bigFont);//设置字符格式
+		answer.setWrapStyleWord(true);//
+		
+		JScrollPane aS = new JScrollPane(answer);
+		aS.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		aS.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		
+		//生成Next Card按钮
+		JButton nextButton = new JButton("Next Card");
+		
+		cardList = new ArrayList<QuizCard>();
+		//设置两个label
+		JLabel qLabel = new JLabel("Question");
+		JLabel aLabel = new JLabel("Answer");
+		//把各个分立元件添加到主板
+		mainPanel.add(qLabel);
+		mainPanel.add(qS);
+		mainPanel.add(aLabel);
+		mainPanel.add(aS);
+		mainPanel.add(nextButton);
+		nextButton.addActionListener(new NextCardListener());//设置nextButto按钮事件监听
+		
+		//菜单栏
+		JMenuBar menuBar  = new JMenuBar();//创建菜单bar
+		JMenu fileMenu = new JMenu("file");//创建file菜单
+		JMenuItem newMenuItem = new JMenuItem("new");//创建new菜单
+		JMenuItem saveMenuItem = new JMenuItem("save");
+		newMenuItem.addActionListener(new NewMenuListener());//设置 new菜单事件监听
+		saveMenuItem.addActionListener(new NewMenuListener());//设置save菜单事件监听
+		
+		//菜单添加
+		fileMenu.add(newMenuItem);
+		fileMenu.add(saveMenuItem);
+		
+		menuBar.add(fileMenu);//添加file菜单
+		
+		frame.setJMenuBar(menuBar);
+		frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+		frame.setSize(500,600);
+		frame.setVisible(true);
+		
+		
+		
+		
+		
+		
+	}
+	public class NextCardListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			QuizCard card  = new QuizCard(question.getText(),answer.getText());
+			cardList.add(card);
+			clearCard();
+			//向列表中增加当前卡片并清除文本域
+		}
+		
+	}
+	public class SaveMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			QuizCard card = new QuizCard(question.getText(),answer.getText());
+			cardList.add(card);
+			
+			JFileChooser fileSave = new JFileChooser();
+			fileSave.showSaveDialog(frame);
+			saveFile(fileSave.getSelectedFile());
+			
+			//生成对话框
+			//输入用户名并保存设置
+		}
+	}
+	public class NewMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			cardList.clear();
+			clearCard();
+			//清除card列表和文本域
+		}
+	}
+	public void saveFile(File file){
+		try{
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			
+			for(QuizCard card:cardList){
+				writer.write(card.getQuestion()+"/");
+				writer.write(card.getAnswer()+"\n");
+			}
+			writer.close();
+		}catch(IOException ex){
+			System.out.println("couldn't write the cardList out");
+			ex.printStackTrace();
+			
+		}
+		
+		//把列表输出到一个文本文件
+		
+	}
+
+	public void clearCard(){
+		question.setText(" ");
+		answer.setText(" ");
+		question.requestDefaultFocus();
+		}
+}

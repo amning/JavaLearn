@@ -1,0 +1,11 @@
+
+public class Echo {
+int x =1;
+
+public void go(int x){
+	System.out.println(x);
+}
+
+}
+
+

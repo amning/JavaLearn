@@ -1,0 +1,22 @@
+import java.sql.Date;
+
+public class Echo {
+
+public static void main(String[] args){
+	double d =42.5;
+	String s =String.format("%tr", new Date(03, 01, 02));
+	
+/*
+ * System.out.println(x);
+ */
+System.out.println(s);
+	
+	
+	
+}
+
+
+
+}
+
+

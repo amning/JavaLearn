@@ -1,0 +1,10 @@
+程序说明：
+涉及到game与player两个对象，game产生0-9随机数，3个play对象猜测该数字、
+
+类：GuessGame.class   Player.class  GameLauncher.class
+
+逻辑：
+	1、GameLauncher 带有main()方法，为程序入口；
+	2、main()中创建GuessGame对象并调用startGame()方法；
+	3、startGame()方法是游戏的起点，它会创建三个player，
+	   然后挑出要猜测的随机数字。要求player猜测并检测结果，过程会被列出。

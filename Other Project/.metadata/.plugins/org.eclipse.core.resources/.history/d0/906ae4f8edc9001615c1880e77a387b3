@@ -1,0 +1,28 @@
+import javax.sound.midi.*;
+public class MusicTest1 {
+
+		
+	static void doRisky(String test) throws ScaryException{
+		System.out.println("start test");
+		if("yes".equals(test)){
+			
+			throw new ScaryException();
+		}
+		System.out.println("end risky");
+		return;
+	}
+
+	public static void main(String[] args){
+		
+		String test = "no";
+		try{
+			System.out.print("start try");
+			doRisky(test);
+			
+		System.out.println("We got a sequencer");
+		}catch(MidiUnavailableException ex){
+			System.out.println("Bummer");//用catch块摆放异常状况的处理程序
+		}
+	}
+
+}

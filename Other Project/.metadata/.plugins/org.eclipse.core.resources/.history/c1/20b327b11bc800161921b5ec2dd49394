@@ -1,0 +1,12 @@
+
+public class Echo {
+ArrayList<int> listOf = new ArrayList<int>;
+
+public void go(int x){
+	x+=1;
+	System.out.println(x);
+}
+
+}
+
+

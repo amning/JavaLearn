@@ -1,0 +1,20 @@
+
+public class Mountain {
+String name;
+int height;
+
+public int compareTo(Mountain m){
+	return name.compareTo(m.getName());
+	}
+Mountain(String n,int h){
+	name = n;
+	int = h;
+	
+}
+public String getName(){
+	return name;
+}
+public int getHeight(){
+	return height;
+}
+}

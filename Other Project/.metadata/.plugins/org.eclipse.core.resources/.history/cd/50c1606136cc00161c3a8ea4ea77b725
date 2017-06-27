@@ -1,0 +1,56 @@
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
+import java.util.*;
+import javax.swing.*;
+
+public class QuizCardBuilder {
+	
+	private JTextArea question;
+	private JTextArea answer;
+	private ArrayList<QuizCard> cardList;
+	private JFrame frame;
+public static void main(String[] args){
+	QuizCardBuilder builder = new QuizCardBuilder();
+	builder.go();
+}
+	public void go(){
+		//创建ui
+		frame = new JFrame("Quiz Card Builder");//创建框架
+		JPanel mainPanel = new JPanel();//创建panel
+		Font bigFont = new Font("sanserif",Font.BOLD,24);//设置字符字体格式
+		question = new JTextArea(6,20); //创建question文本区域 6行20个字
+		/*
+		 * 对文本区域进行设置
+		 * 
+		 */
+		question.setLineWrap(true);//设置自动换行
+		question.setFont(bigFont);//设置字符格式
+		question.setWrapStyleWord(true);//
+		
+		
+		
+	}
+	private class NextCardListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			//向列表中增加当前卡片并清除文本域
+		}
+		
+	}
+	public class SaveMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			//生成对话框
+			//输入用户名并保存设置
+		}
+	}
+	public class NewMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			//清除card列表和文本域
+		}
+	}
+	public void saveFile(File file){
+			//把列表输出到一个文本文件
+		
+	}
+}

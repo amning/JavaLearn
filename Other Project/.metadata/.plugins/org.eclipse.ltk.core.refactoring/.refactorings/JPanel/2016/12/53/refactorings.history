@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JPanel/src/MyJPanel.java&apos; to &apos;MyDrawPanel.java&apos;" description="Rename resource &apos;MyJPanel.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MyJPanel.java" name="MyDrawPanel.java" stamp="1482669737917" updateReferences="true"/>
+</session>

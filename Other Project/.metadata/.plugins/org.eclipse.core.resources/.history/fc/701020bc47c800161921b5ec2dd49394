@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class Echo {
+	
+ArrayList<Boolean> listOf = new ArrayList<Boolean>();
+
+
+
+boolean num = listOf.get(0);
+
+}
+
+

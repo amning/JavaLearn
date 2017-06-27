@@ -1,0 +1,23 @@
+
+public class Echo {
+
+public static void main(String[] args){
+	String s ="5612";
+	int x = Integer.parseInt(s);
+	
+	double d =Double.parseDouble("40.21");
+	
+	boolean b = new Boolean("true").booleanValue();
+			
+System.out.println(x);
+System.out.println(d+"   "+b);
+	
+	
+	
+}
+
+
+
+}
+
+

@@ -1,0 +1,54 @@
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.*;
+
+public class InnnerButton {
+
+	JFrame frame;
+	
+	JButton b;
+	
+	JCheckBox c;
+	
+	JTextField f;
+	public static void main(String []  args){
+		InnnerButton gui = new InnnerButton();
+		gui.go();
+		
+	}
+	public void go(){
+		frame = new JFrame();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JPanel A = new JPanel();
+		JPanel B  = new JPanel();
+		A.add(new JButton("button 1"));
+		A.add(new JButton("button 2"));
+		A.add(new JButton("button 3"));
+		B.add(A);
+		
+		
+		
+		
+		//b.addActionListener(new BListener());
+		frame.getContentPane().add(BorderLayout.SOUTH,A);
+		frame.getContentPane().add(BorderLayout.SOUTH,B);
+		frame.setSize(500, 500);
+		frame.setVisible(true);
+		
+	}	
+		
+		
+	class BListener implements ActionListener{
+		public void actionPerformed(ActionEvent e){
+			if(b.getText().equals("A")){
+				b.setText("B");
+				
+			}else{
+				b.setText("A");
+				
+			}
+		} 
+	}	
+	
+	
+}

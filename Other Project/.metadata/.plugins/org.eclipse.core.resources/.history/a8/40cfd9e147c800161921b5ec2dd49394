@@ -1,0 +1,22 @@
+
+public class Echo {
+Integer i;
+Integer j;
+
+public static void main(String[] args){
+	Echo t = new Echo();
+	t.go();
+	
+	
+	
+	
+}
+public void go(){
+	j = i;
+	System.out.println(j);
+	System.out.println(i);
+}
+
+}
+
+

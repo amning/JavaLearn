@@ -1,0 +1,23 @@
+import java.sql.Date;
+
+public class Echo {
+
+public static void main(String[] args){
+	double d =42.5;
+	Date day = new Date(1);
+	String s =String.format("%tr",day);
+	
+/*
+ * System.out.println(x);
+ */
+System.out.println(s);
+
+	
+	
+}
+
+
+
+}
+
+

@@ -1,0 +1,18 @@
+
+public class Echo {
+int x =1;
+public void go(final int x){
+	System.out.println(x);
+}
+
+}
+
+public class EchoTestDrive {
+public static void main(String [] args)
+{
+	Echo e1 = new Echo();
+	e1.go(14);
+	
+	
+}
+}

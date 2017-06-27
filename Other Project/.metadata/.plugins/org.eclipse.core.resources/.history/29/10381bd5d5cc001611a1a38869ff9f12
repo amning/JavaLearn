@@ -1,0 +1,126 @@
+import java.awt.BorderLayout;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.ArrayList;
+
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.ScrollPaneConstants;
+
+import QuizCardBuilder.NewMenuListener;
+import QuizCardBuilder.NextCardListener;
+
+public class QuizCardPlayer {
+	private JFrame frame;
+	private JTextArea display;
+	private JTextArea answer;
+	private ArrayList<QuizCard> cardList;
+	private QuizCard currentCard;
+	private int cuttentCardIndex;
+	private JButton nextButton;
+	private boolean isShowAnswer;
+	
+	public static void main(String [] args){
+		QuizCardPlayer player = new QuizCardPlayer();
+		player.go();
+	}
+	public void go(){
+		//创建ui
+		frame = new JFrame("Quiz Card Builder");//创建框架
+		JPanel mainPanel = new JPanel();//创建panel
+		Font bigFont = new Font("sanserif",Font.BOLD,24);//设置字符字体格式
+		
+		/*
+		 * 播放窗口设置
+		 */
+		display = new JTextArea(10,20);//创建播放窗口
+		display.setFont(bigFont);
+		display.setLineWrap(true);
+		display.setEditable(false);
+		
+		JScrollPane qS = new JScrollPane(display);
+		qS.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+		qS.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		
+		nextButton = new JButton("show question");//show按钮添加
+		
+		//添加控件至主控面板
+		mainPanel.add(qS);
+		mainPanel.add(nextButton);
+		nextButton.addActionListener(new NextCardListener());
+				
+		//菜单栏
+		JMenuBar menuBar  = new JMenuBar();//创建菜单bar
+		JMenu fileMenu = new JMenu("file");//创建file菜单
+		JMenuItem loadMenuItem = new JMenuItem("Load card set");//创建new菜单
+
+		loadMenuItem.addActionListener(new OpenMenuListener());//设置 load菜单事件监听
+			
+		//菜单添加
+		fileMenu.add(loadMenuItem);
+		menuBar.add(fileMenu);//添加file菜单
+		
+		frame.setJMenuBar(menuBar);
+		frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+		frame.setSize(640,500);
+		frame.setVisible(true);
+				
+		//创建ui
+	}
+	public class NextCardListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			if(isShowAnswer){//检查isShowAnswer来判断看看的是问题还是答案 根据回答来执行适当的工作
+				display.setText(currentCard.getAnswer());
+				nextButton.setText("Next Card");
+				isShowAnswer = false;
+			}else{
+				if(cuttentCardIndex<cardList.size()){
+					showNextCard();
+					
+				}else{//最后一个卡片
+					display.setText("That was last card");
+					nextButton.setEnabled(false);
+					
+				}
+			}
+			//如果是个问题，显示答案，否则显示下一个问题
+			//改一个标识标明我们已经浏览了问题或答案
+		}
+	}
+	public class OpenMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			JFileChooser fileOpen = new JFileChooser();
+			fileOpen.showOpenDialog(frame);
+			loadFile(fileOpen.getSelectedFile());
+			
+			//生成一个文件对话框
+			//让用户把一个卡片设置打开
+		}
+	}
+	
+	private void loadFile(File file){
+		//创建卡片数组，并从文本中读取他们
+		//调用OpenMenuListener事件处理器，每次从文件中读取一行
+		//告诉makeCard()方法创建一个新的卡片
+		//
+	}
+	
+	public void showNextCard() {
+		// TODO Auto-generated method stub
+		
+	}
+	private void makeCard(String LineToParse){
+		//调用LoadFile方法，从文本中读取一行
+		//创建一个新的QuizCard 通过调用CardLis把它加入到数组中
+	}
+}

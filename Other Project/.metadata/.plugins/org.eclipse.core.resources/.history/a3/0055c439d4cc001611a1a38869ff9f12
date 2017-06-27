@@ -1,0 +1,33 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+
+public class QuizCardPlayer {
+	public void go(){
+		//创建ui
+	}
+	public class NextCardListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			//如果是个问题，显示答案，否则显示下一个问题
+			//改一个标识标明我们已经浏览了问题或答案
+		}
+	}
+	public class OpenMenuListener implements ActionListener{
+		public void actionPerformed(ActionEvent ev){
+			//生成一个文件对话框
+			//让用户把一个卡片设置打开
+		}
+	}
+	
+	private void loadFile(File file){
+		//创建卡片数组，并从文本中读取他们
+		//调用OpenMenuListener事件处理器，每次从文件中读取一行
+		//告诉makeCard()方法创建一个新的卡片
+		//
+	}
+	
+	private void makeCard(String LineToParse){
+		//调用LoadFile方法，从文本中读取一行
+		//创建一个新的QuizCard 通过调用CardLis把它加入到数组中
+	}
+}

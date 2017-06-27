@@ -1,0 +1,16 @@
+import javax.sound.midi.*;
+public class MusicTest1 {
+	public void play(){
+		try{Sequencer sequencer = MidiSystem.getSequencer();// 把有风险的程序放在try模块
+		System.out.println("We got a sequencer");
+		}catch(MidiUnavailableException ex){
+			System.out.println("Bummer");//用catch块摆放异常状况的处理程序
+		}
+		
+	}
+	public static void main(String[] args){
+		MusicTest1 mt = new MusicTest1();
+		mt.play();
+	}
+
+}

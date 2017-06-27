@@ -1,0 +1,61 @@
+import java.util.*;
+import java.io.*;
+
+public class Jukebox {
+	
+	ArrayList<Song> songList = new ArrayList<Song>();
+	
+	public static void main (String [] args)
+	{
+		
+		Jukebox j = new Jukebox();
+		j.go();
+	}
+	class ArtistCompare implements Comparator<Song>{
+		public int compare(Song one,Song two){
+			return one.getArtist().compareTo(two.getArtist());
+		}
+	}
+	public void go(){
+	
+		getSongs();
+		
+		
+		//排序之前
+		System.out.println(songList);
+		//排序之后
+		Collections.sort(songList);
+		System.out.println(songList);
+		
+		HashSet<Song> songSet = new HashSet<Song>();
+		songSet.addAll(songList);
+			
+		System.out.println(songList);
+	}
+	void getSongs(){
+			try{
+		
+			File file = new File("d:\\java\\project\\Jukebox\\src\\songList.txt");
+			FileReader f = new FileReader(file);
+			BufferedReader reader = new BufferedReader(f);
+			
+			String line = null;
+		
+			while((line = reader.readLine())!=null)
+			{
+				addSong(line);
+							}
+						
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		
+	}
+	
+	void addSong(String lineToParse){
+		String[] tokens = lineToParse.split("/");
+		
+		Song nextSong = new Song(tokens[0],tokens[1],tokens[2],tokens[3]);
+		songList.add(nextSong);
+				}
+}
