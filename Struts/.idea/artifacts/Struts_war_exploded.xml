@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Struts:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Struts_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Struts/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Struts" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
