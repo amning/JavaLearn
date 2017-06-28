@@ -1,14 +1,11 @@
 package test;
 
-import many2many.dao.UserDao;
 import junit.framework.TestCase;
-import one2many.bean.Customer;
-import one2many.dao.GetDao;
-import one2many.dao.GetDaoByQBC;
+import bean.Customer;
+import dao.GetDaoByQBC;
 
 import java.util.Iterator;
 import java.util.List;
-import java.util.logging.Level;
 
 /**
  * Created by 王宁 on 2017/6/14.

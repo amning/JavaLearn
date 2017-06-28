@@ -5,12 +5,21 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <!--
+   <package name="methoddemo" extends="struts-default" namespace="/">
+       <action name="add" class="action.method.BookAction" method="add">
+           <result name="success" type="redirect">/add.jsp</result>
+       </action>
+       <action name="update" class="action.method.BookAction" method="update">
+           <result name="success" type="redirect">/update.jsp</result>
+       </action>
 
-<!--    <package name="hellodemo" extends="struts-default" namespace="/">
-        <action name="hello" class="action.HelloAction">
-            <result name="ok">/hello.jsp</result>
+   </package>
+   -->
+    <package name="methoddemo" extends="struts-default" namespace="/">
+        <action name="book*" class="action.method.BookAction" method="{1}">
+            <result name="add" type="redirect">/add.jsp</result>
+            <result name="update" type="redirect">/update.jsp</result>
         </action>
     </package>
-    -->
-    <include file="action/hello.xml"></include>
 </struts>

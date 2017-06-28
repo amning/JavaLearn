@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="one2many.bean.Customer" table="customer">
+    <class name="bean.Customer" table="customer">
         <id name="cid" column="cid">
             <generator class="native"></generator>
         </id>
@@ -15,7 +15,7 @@
         <property name="custSource" column="custsource"></property>
         <set name="managers" cascade="save-update,delete" inverse="true">
             <key column="clid"></key>
-            <one-to-many class="one2many.bean.Manager"></one-to-many>
+            <one-to-many class="bean.Manager"></one-to-many>
         </set>
     </class>
 
