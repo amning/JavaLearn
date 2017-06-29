@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5355bb28-d989-496f-a75e-cd4c510bee67" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/artifacts/tmallBySSH_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/Hibernate_5_2_10_5_2_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/Spring_4_3_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/Struts_2_2_3_20_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/org_thymeleaf_extras_thymeleaf_extras_springsecurity4_Release.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/libraries/org_thymeleaf_thymeleaf_spring4_Release.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/src/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/tmallBySSH.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/web/WEB-INF/sun-jaxws.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tmallBySSH/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../J2EE/cart/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../J2EE/cart/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,8 +173,8 @@
         <entry file="file://$PROJECT_DIR$/概述.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2406">
-                <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+              <first_editor relative-caret-position="597">
+                <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
                 <folding>
                   <marker date="1498743650545" expanded="true" signature="1549:1817" ph="..." />
                   <marker date="1498743650545" expanded="true" signature="1627:1799" ph="..." />
@@ -288,10 +302,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
+    <option name="x" value="1367" />
     <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="height" value="912" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -525,7 +538,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1093,7 +1106,7 @@
       <workItem from="1498718775826" duration="96000" />
       <workItem from="1498718947601" duration="183000" />
       <workItem from="1498719172538" duration="276000" />
-      <workItem from="1498719502612" duration="10573000" />
+      <workItem from="1498719502612" duration="11027000" />
     </task>
     <task id="LOCAL-00001" summary="在spring中使用aspectJ实现aop操作">
       <created>1496829252008</created>
@@ -1236,10 +1249,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102958000" />
+    <option name="totallyTimeSpent" value="103412000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1367" y="0" width="1456" height="912" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1260,7 +1273,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.49487555" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286445" sideWeight="0.49487555" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25191817" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1563,11 +1576,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/案例.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/概述.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2406">
-            <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+          <first_editor relative-caret-position="597">
+            <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
             <folding>
               <marker date="1498743650545" expanded="true" signature="1549:1817" ph="..." />
               <marker date="1498743650545" expanded="true" signature="1627:1799" ph="..." />
@@ -1577,17 +1601,6 @@
               <marker date="1498743650545" expanded="true" signature="5390:5408" ph=" }" />
               <marker date="1498743650545" expanded="true" signature="5492:5590" ph="{...}" />
             </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/案例.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
