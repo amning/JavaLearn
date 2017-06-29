@@ -5,132 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5355bb28-d989-496f-a75e-cd4c510bee67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/data/DateAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/data/DateAction2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/form/LoginAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/form/RegisterAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/footer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/register.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/update.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/action/CustomerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/Customer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/Customer.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/Manager.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/bean/User.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/dao/GetDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/dao/GetDaoByQBC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/struts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/test/TestHibernate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/utils/HibernateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/classes/utils/JDUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/FastInoset.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-config-api-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-config-impl-base-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-container-impl-base-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-container-spi-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-container-test-api-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-container-test-impl-base-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-container-test-spi-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-core-api-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-core-impl-base-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-core-spi-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-junit-container-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-junit-core-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-test-api-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-test-impl-base-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/arquillian-test-spi-1.1.13.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/asm-commons.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/asm-tree.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/asm.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/commons-fileupload.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/commons-io.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/commons-lang.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/freemarker.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/gmbal-api-only.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/ha-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/hibernate-core-5.2.10.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/javassist.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxb-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxb-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxb-xjc.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxws-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxws-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jaxws-tools.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/jsr181-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/mail.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/management-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/mimepull.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/ognl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/policy.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/saaj-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/saaj-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/shrinkwrap-api-1.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/shrinkwrap-descriptors-api-base-2.0.0-alpha-10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/shrinkwrap-descriptors-spi-2.0.0-alpha-10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/shrinkwrap-impl-base-1.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/shrinkwrap-spi-1.2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/stax-ex.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/stax2-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/streambuffer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/struts2-core.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/woodstox-core-asl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/lib/xwork-core.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/sun-jaxws.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/UserDemo_war_exploded/list.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/action/CustomerAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/Customer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/Customer.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/Manager.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/bean/User.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/dao/GetDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/dao/GetDaoByQBC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/example/HelloWorld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/struts.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/test/TestHibernate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/utils/HibernateUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UserDemo/utils/JDUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/add.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/update.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/WEB-INF/classes/action/method/BookAction.class" afterPath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/WEB-INF/classes/action/method/BookAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../J2EE/cart/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../J2EE/cart/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Struts.iml" afterPath="$PROJECT_DIR$/Struts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Struts_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Struts/struts.xml" afterPath="$PROJECT_DIR$/out/production/Struts/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/概述.md" afterPath="$PROJECT_DIR$/概述.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1217,7 +1093,7 @@
       <workItem from="1498718775826" duration="96000" />
       <workItem from="1498718947601" duration="183000" />
       <workItem from="1498719172538" duration="276000" />
-      <workItem from="1498719502612" duration="10496000" />
+      <workItem from="1498719502612" duration="10573000" />
     </task>
     <task id="LOCAL-00001" summary="在spring中使用aspectJ实现aop操作">
       <created>1496829252008</created>
@@ -1317,7 +1193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498719043908</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="struts2表单数据获取方式">
+      <created>1498744038179</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1498744038179</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1353,10 +1236,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102881000" />
+    <option name="totallyTimeSpent" value="102958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="916" extended-state="7" />
+    <frame x="1358" y="-8" width="1456" height="916" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1377,10 +1260,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.49487555" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286445" sideWeight="0.49487555" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25191817" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736573" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
