@@ -5,6 +5,12 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <package name="form1" extends="struts-default" namespace="/">
+        <action name="register" class="action.form.RegisterAction">
+
+        </action>
+        <action name="data" class="action.data.DateAction2"></action>
+    </package>
     <!--
    <package name="methoddemo" extends="struts-default" namespace="/">
        <action name="add" class="action.method.BookAction" method="add">
@@ -16,10 +22,13 @@
 
    </package>
    -->
-    <package name="methoddemo" extends="struts-default" namespace="/">
-        <action name="book*" class="action.method.BookAction" method="{1}">
-            <result name="add" type="redirect">/add.jsp</result>
-            <result name="update" type="redirect">/update.jsp</result>
+    <package name="demo1" extends="struts-default" namespace="/">
+
+        <action name="book" class="action.method.BookAction">
+
+        </action>
+        <action name="order" class="action.method.OrderAction">
+
         </action>
     </package>
 </struts>
