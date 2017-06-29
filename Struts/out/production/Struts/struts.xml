@@ -16,10 +16,12 @@
 
    </package>
    -->
-    <package name="methoddemo" extends="struts-default" namespace="/">
-        <action name="book*" class="action.method.BookAction" method="{1}">
-            <result name="add" type="redirect">/add.jsp</result>
-            <result name="update" type="redirect">/update.jsp</result>
+    <package name="demo1" extends="struts-default" namespace="/">
+        <action name="book" class="action.method.BookAction">
+            <result name="success">/hello.jsp</result>
+        </action>
+        <action name="order" class="action.method.OrderAction">
+            <result name="success">hello.jsp</result>
         </action>
     </package>
 </struts>
