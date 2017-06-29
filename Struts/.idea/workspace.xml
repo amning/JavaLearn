@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5355bb28-d989-496f-a75e-cd4c510bee67" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spring/helloSpring/out/production/jdbcTemplate/jdbc/JdbcTemplateDemo1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spring/helloSpring/out/production/jdbcTemplate/jdbc/Row.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Struts/action/method/BookAction.class" afterPath="$PROJECT_DIR$/out/production/Struts/action/method/BookAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/Arquillian_JUnit_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_Release1.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_Release1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_spring4_Release.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_spring4_Release.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_spring4_Release1.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/libraries/org_thymeleaf_thymeleaf_spring4_Release1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Spring/helloSpring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Spring/helloSpring/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Struts/struts.xml" afterPath="$PROJECT_DIR$/out/production/Struts/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/method/BookAction.java" afterPath="$PROJECT_DIR$/src/action/method/BookAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/概述.md" afterPath="$PROJECT_DIR$/概述.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -952,7 +941,7 @@
       <workItem from="1497342746237" duration="27000" />
       <workItem from="1497361192144" duration="218000" />
       <workItem from="1498718775826" duration="96000" />
-      <workItem from="1498718947601" duration="73000" />
+      <workItem from="1498718947601" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="在spring中使用aspectJ实现aop操作">
       <created>1496829252008</created>
@@ -1038,7 +1027,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497079540492</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="id">
+      <created>1498719023469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1498719023469</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1074,7 +1070,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91999000" />
+    <option name="totallyTimeSpent" value="92013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1456" height="912" extended-state="0" />
