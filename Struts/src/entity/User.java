@@ -7,6 +7,15 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private Integer id;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     @Override
     public String toString() {

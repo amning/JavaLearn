@@ -1,4 +1,4 @@
-package action.data;
+package action.demo;
 
 import bean.Book;
 import com.opensymphony.xwork2.ActionSupport;

@@ -1,4 +1,4 @@
-package action.form;
+package action.demo.form;
 
 import com.opensymphony.xwork2.ActionSupport;
 import entity.User;

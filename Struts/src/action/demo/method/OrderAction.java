@@ -1,4 +1,4 @@
-package action.method;
+package action.demo.method;
 
 import com.opensymphony.xwork2.ActionSupport;
 

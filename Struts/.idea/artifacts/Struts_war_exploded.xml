@@ -10,6 +10,11 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
           <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="Hibernate 5.2.10-5.2.10" />
+          <element id="file-copy" path="$PROJECT_DIR$/../apache-tomcat-9.0.0.M20/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/java/lib/jstl.jar" />
+          <element id="file-copy" path="D:/java/lib/standard.jar" />
+          <element id="file-copy" path="D:/java/lib/mysql-connector-java-5.0.8-bin.jar" />
         </element>
       </element>
     </root>

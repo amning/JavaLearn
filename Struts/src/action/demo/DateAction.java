@@ -1,4 +1,4 @@
-package action.data;
+package action.demo;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;

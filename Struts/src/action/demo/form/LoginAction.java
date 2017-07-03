@@ -1,16 +1,11 @@
-package action.form;
+package action.demo.form;
 
-import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 
-import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * Created by 王宁 on 2017/6/29.
