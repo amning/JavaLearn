@@ -7,14 +7,23 @@
 <struts>
 
     <package name="form1" extends="struts-default" namespace="/">
+       <!--声明拦截器-->
+        <interceptors>
+            <interceptor name="loginInteceptor" class="interceptor.LoginInterceptor"></interceptor>
+        </interceptors>
         <action name="register" class="action.demo.form.RegisterAction">
 
         </action>
-        <action name="list" class="action.UserAction" >
-            <result name="list" type="redirect">/userList.jsp</result>
-        </action>
-        <action name="hello" class="action.demo.UserAction">
-            <result name="success">/valueStact.jsp</result>
+
+        <action name="login" class="action.LoginAction" method="login">
+
+            <interceptor-ref name="loginInteceptor">
+                <param name="excludeMethods">login</param>
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+
+            <result name="login">/hello.jsp</result>
+            <result name="login_error">/failed.jsp</result>
         </action>
     </package>
     <!--

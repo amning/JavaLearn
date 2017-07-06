@@ -1,6 +1,7 @@
 package dao;
 
 import entity.User;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -15,6 +16,24 @@ import java.util.List;
  * Created by 王宁 on 2017/7/3.
  */
 public class UserDao {
+    public User getUserByName(String username){
+        User bean = null;
+        Query query=null;
+        String hql = "from User where username like ?";
+
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        Session session = sessionFactory.openSession();
+        query = session.createQuery(hql);
+        Transaction tx = session.beginTransaction();
+        query.setParameter(0, username);
+        List results = query.getResultList();
+        if(results.isEmpty())
+            return null;
+        else
+            bean = (User) query.getSingleResult();
+        tx.commit();
+        return bean;
+    }
     public void add(User user){
         SessionFactory sessionFactory = null;
         Session session = null;
