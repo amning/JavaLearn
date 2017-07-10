@@ -16,7 +16,7 @@
 
 ## JAVA框架入门
 
-### hibernate框架入门
+### <a src =https://github.com/amning/JavaLearn/tree/master/Hibernate/HelloHibernate>hibernate框架入门</a>
 
 ### Spring框架入门
 
