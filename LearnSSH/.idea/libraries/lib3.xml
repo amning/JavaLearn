@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-websocket-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-js-2.4.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-webmvc-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-webflow-2.4.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-binding-2.4.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-batch-core-2.2.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-js-resources-2.4.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-ws.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-faces-2.4.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-web-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/demo1/lib/spring-webmvc-portlet-4.3.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
