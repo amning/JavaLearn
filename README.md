@@ -18,9 +18,9 @@
 
 ### [hibernate框架入门](https://github.com/amning/JavaLearn/tree/master/Hibernate/HelloHibernate)
 
-### Spring框架入门
+### [Spring框架入门](https://github.com/amning/JavaLearn/tree/master/Spring/helloSpring)
 
-### sturts2框架入门
+### [sturts2框架入门](https://github.com/amning/JavaLearn/tree/master/Struts)
 
 ### mybatis框架入门
 
