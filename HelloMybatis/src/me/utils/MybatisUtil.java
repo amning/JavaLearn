@@ -22,14 +22,15 @@ public class MybatisUtil {
             e.printStackTrace();
         }
     }
-    /*
     public static SqlSessionFactory getSqlSessionFactory(){
         return sqlSessionFactory;
     }
-    */
     public static SqlSession getSession(){
-        SqlSession session = `.openSession();
+        SqlSession session = sqlSessionFactory.openSession();
         return session;
     }
 
 }
+ /*
+
+    */
