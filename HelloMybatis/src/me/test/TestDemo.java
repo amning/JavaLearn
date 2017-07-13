@@ -25,7 +25,7 @@ public class TestDemo {
         User user =new User();
         user.setId(2);
         user.setUsername("谱子");
-        user.setPassword("250");
+        user.setPassword("252");
         userService.updateUser(user);
  /*       Iterator<User> it = users.iterator();
         while (it.hasNext()){

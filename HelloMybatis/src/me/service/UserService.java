@@ -88,7 +88,7 @@ public class UserService {
             sqlSession = MybatisUtil.getSession();
             String statment="me.entity.userMapper.updateUser";
             sqlSession.update(statment,user);
-            sqlSession.commit();
+            //sqlSession.commit();
 
         } catch (Exception e){
             e.printStackTrace();
