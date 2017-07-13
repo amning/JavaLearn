@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="me.dao.UserDaoInte">
+<mapper namespace="me.entity.userMapper">
     <select id="getUserById" parameterType="int" resultType="me.entity.User">
         select * from `user` where id = #{id}
     </select>
@@ -10,16 +10,23 @@
         insert into user(username,password)
         values(#{username},#{password})
     </insert>
-<delete id="delUserById" parameterType="java.lang.Integer">
-    delete from user where id=#{id}
-</delete>
-    <!--
-    <select id="getUserByName" parameterType="string" resultMap="listUser">
-        SELECT * FROM "user" WHERE username LIKE #{username}
+    <select id="getUserByName" parameterType="string" resultType="me.entity.User">
+        SELECT * FROM user WHERE username LIKE #{value}
     </select>
+    <delete id="delUserById" parameterType="java.lang.Integer">
+        DELETE FROM user WHERE id=#{id}
+    </delete>
+    <select id="getAll" resultType="me.entity.User">
+        SELECT * FROM user
+    </select>
+    <select id="updateUser" parameterType="me.entity.User">
+        UPDATE user set username =#{username},password=#{password} where id=#{id}
+    </select>
+
+<!---->
 <resultMap id="listUser" type="me.entity.User">
     <id column="id" property="id"></id>
     <result column="username" property="username"></result>
     <result column="password" property="password"></result>
-</resultMap>-->
+</resultMap>
 </mapper>

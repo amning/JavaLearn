@@ -34,8 +34,7 @@ public class Test2 {
                 // 第二个参数:指定和映射文件中所匹配的parameterType类型的参数;
                 // sqlSession.selectOne结果是与映射文件所匹配的resultType类型的对象;
                 // selectOne：查询一条结果
-                User user = (User) sqlSession.selectOne("me.entity.UserMapper.selectUserByID", 1);
-                System.out.println(user);
+
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {

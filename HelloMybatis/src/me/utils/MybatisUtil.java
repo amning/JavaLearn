@@ -26,9 +26,10 @@ public class MybatisUtil {
         return sqlSessionFactory;
     }
     public static SqlSession getSession(){
-        SqlSession session = sqlSessionFactory.openSession();
-        return session;
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        return sqlSession;
     }
+
 
 }
  /*

@@ -3,10 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <typeAliases>
-        <typeAlias alias="User" type="me.entity.User"/>
-    </typeAliases>
-    <environments default="demo">
+       <environments default="demo">
         <environment id="demo">
             <transactionManager type="JDBC"></transactionManager>
             <dataSource type="POOLED">
