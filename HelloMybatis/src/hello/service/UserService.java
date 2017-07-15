@@ -1,7 +1,7 @@
-package me.service;
+package hello.service;
 
-import me.entity.User;
-import me.utils.MybatisUtil;
+import hello.entity.User;
+import hello.utils.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ public class UserService {
         int result=0;
         try {
             sqlSession = MybatisUtil.getSession();
-            String statment="me.entity.userMapper.addUser";
+            String statment="hello.entity.userMapper.addUser";
             result = sqlSession.insert(statment, user);
             sqlSession.commit();
             return result;
@@ -33,7 +33,7 @@ public class UserService {
         int result=0;
         try {
             sqlSession = MybatisUtil.getSession();
-            String statment="me.entity.userMapper.delUserById";
+            String statment="hello.entity.userMapper.delUserById";
             result = sqlSession.delete(statment, id);
             sqlSession.commit();
             return result;
@@ -51,7 +51,7 @@ public class UserService {
         int result=0;
         try {
             sqlSession = MybatisUtil.getSession();
-            String statment="me.entity.userMapper.getAll";
+            String statment="hello.entity.userMapper.getAll";
             users = sqlSession.selectList(statment);
             sqlSession.commit();
             return users;
@@ -69,7 +69,7 @@ public class UserService {
         int result=0;
         try {
             sqlSession = MybatisUtil.getSession();
-            String statment="me.entity.userMapper.getUserByName";
+            String statment="hello.entity.userMapper.getUserByName";
             users = sqlSession.selectList(statment,username);
             sqlSession.commit();
             return users;
@@ -86,7 +86,7 @@ public class UserService {
         SqlSession sqlSession = null;
         try {
             sqlSession = MybatisUtil.getSession();
-            String statment="me.entity.userMapper.updateUser";
+            String statment="hello.entity.userMapper.updateUser";
             sqlSession.update(statment,user);
             //sqlSession.commit();
 

@@ -1,4 +1,4 @@
-package me.entity;
+package hello.entity;
 
 /**
  * Created by 王宁 on 2017/7/10.

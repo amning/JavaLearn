@@ -1,4 +1,4 @@
-package me.utils;
+package MybatisAndSpringMVC.utils;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -29,8 +29,6 @@ public class MybatisUtil {
         SqlSession sqlSession = sqlSessionFactory.openSession(true);
         return sqlSession;
     }
-
-
 }
  /*
 
