@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="IpWeb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/IpWeb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="IpWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="IpWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../../apache-tomcat-9.0.0.M20/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/java/lib/mysql-connector-java-5.0.8-bin.jar" />
+          <element id="file-copy" path="D:/java/lib/mybatis-spring-1.2.0.jar" />
+          <element id="file-copy" path="D:/java/lib/mybatis-3.0.2.jar" />
+          <element id="file-copy" path="D:/java/lib/jstl.jar" />
+          <element id="file-copy" path="D:/java/lib/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" />
+          <element id="library" level="project" name="Spring Security-3.2.5" />
+          <element id="library" level="project" name="Spring Web Services-2.0.2" />
+          <element id="library" level="project" name="Spring Webflow-2.4.0" />
+          <element id="library" level="project" name="Spring MVC-4.3.9.RELEASE" />
+          <element id="library" level="project" name="Spring-4.3.9.RELEASE" />
+          <element id="file-copy" path="D:/java/lib/standard.jar" />
+          <element id="file-copy" path="D:/java/apache-tomcat-9.0.0.M22/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/java/lib/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" />
+          <element id="file-copy" path="D:/java/lib/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

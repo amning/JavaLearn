@@ -7,6 +7,5 @@
     <constant name="struts.i18n.encoding" value="UTF-8"></constant>
     <constant name="struts.objectFactory" value="spring"/>
     <package name="basicstruts" extends="struts-default">
-
     </package>
 </struts>

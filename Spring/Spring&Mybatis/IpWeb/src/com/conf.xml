@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.ITableIpDao">
+    <select id="getRowCount" resultType="int">
+      SELECT  count(*) FROM ip
+    </select>
+    <select id="selectByParams" resultType="com.entity.TableIp" parameterType="map">
+        SELECT * FROM ip
+        ORDER BY findTime DESC
+        LIMIT ${offset},${size}
+    </select>
+</mapper>

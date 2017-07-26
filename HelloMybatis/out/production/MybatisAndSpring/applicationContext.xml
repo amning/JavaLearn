@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+     <!--配置c3p0连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql:///demo"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="wangning"></property>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--dataSource属性指定要用到的连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--configLocation属性指定mybatis的核心配置文件-->
+        <property name="configLocation" value="conf.xml"/>
+    </bean>
+
+    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <!--sqlSessionFactory属性指定要用到的SqlSessionFactory实例-->
+        <property name="sqlSessionFactory" ref="sqlSessionFactory" />
+        <!--mapperInterface属性指定映射器接口，用于实现此接口并生成映射器对象-->
+        <property name="mapperInterface" value="hello.dao.UserDao" />
+    </bean>
+
+    <!-- 配置事务管理器
+       <bean id="TransactionManager" class="org.apache.ibatis.session.SqlSessionManager" >
+           &lt;!&ndash;注入sessionFactory&ndash;&gt;
+           <property name="sessionFactory" ref="sessionFactory"></property>
+       </bean>
+       &lt;!&ndash;开启事务注解&ndash;&gt;
+       <tx:annotation-driven transaction-manager="TransactionManager"></tx:annotation-driven>
+   -->
+    <!--引入user spring配置文件-->
+
+</beans>
