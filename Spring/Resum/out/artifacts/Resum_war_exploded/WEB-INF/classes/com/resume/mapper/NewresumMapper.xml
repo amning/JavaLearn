@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.resume.mapper.NewresumMapper">
+    <resultMap id="basicResultMap" type="com.resume.model.Basic">
+        <id property="Id" column="Id"/>
+        <result property="Name" column="Name"/>
+        <result property="Gender" column="Gender"/>
+        <result property="Age" column="Age"/>
+        <result property="Address" column="Age"/>
+        <result property="Email" column="Email"/>
+        <result property="Tel" column="Tel"/>
+        <result property="School" column="School"/>
+        <result property="Introduce" column="Introduce"/>
+    </resultMap>
+    <resultMap id="eduResultMapper" type="com.resume.model.Educational">
+        <id property="Eduid" column="Eduid"/>
+        <result property="Major" column="Major"/>
+        <result property="Education" column="Education"/>
+        <result property="School" column="School"/>
+        <result property="Graduation" column="Graduation"/>
+    </resultMap>
+    <resultMap id="workResultMapper" type="com.resume.model.Work">
+        <id property="WorkId" column="WorkId"/>
+        <result property="Company" column="Company"/>
+        <result property="Position" column="Position"/>
+        <result property="Departure" column="Departure"/>
+    </resultMap>
+    <insert id="insertbasic" parameterType="com.resume.model.Basic" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO basic(Name,Gender,Age,Address,Email,Tel,School,UserId)
+                VALUES (#{name},#{gender},#{age},#{address},#{email},#{tel},#{school},#{userid})
+    </insert>
+    <insert id="addEducation">
+        INSERT INTO educational(School,Major,Education,Graduation,Userid)
+                VALUES (#{School},#{Major},#{Education},#{Graduation},#{Userid})
+    </insert>
+    <insert id="addWork">
+        INSERT INTO work (Company, Position, Duty, Departure, Userid)
+          VALUES(#{Company},#{Position},#{Duty},#{Departure},#{Userid})
+    </insert>
+    <insert id="addIntroduce">
+        INSERT INTO basic SET Introduce = #{Introduce} where UserId=#{UserId}
+    </insert>
+    <select id="selectBasic" parameterType="Work_info" resultMap="basicResultMap">
+        SELECT * FROM basic WHERE UserId=#{userid}
+    </select>
+    <select id="selectEducation" parameterType="Work_info" resultMap="eduResultMapper">
+        SELECT *FROM educational WHERE Userid=#{userid}
+    </select>
+    <select id="selectWork" parameterType="Work_info" resultMap="workResultMap" resultType="com.resume.model.Work">
+        SELECT * FROM work WHERE Userid=#{userid}
+    </select>
+</mapper>

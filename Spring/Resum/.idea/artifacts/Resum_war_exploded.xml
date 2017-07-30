@@ -1,0 +1,63 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Resum:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Resum_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Resum" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/asm-4.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/aspectjweaver-1.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/cglib-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-collections-3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-fileupload-1.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-io-1.3.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-lang.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/commons-pool-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/ehcache-core-2.6.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/freemarker-2.3.13.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/hibernate-validator-4.3.0.Final.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/jackson-annotations-2.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/jackson-core-2.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/jackson-databind-2.1.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/javassist-3.17.1-GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/jboss-logging-3.1.0.CR2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/log4j-api-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/log4j-core-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/mybatis-3.3.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/mybatis-ehcache-1.0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/mybatis-spring-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/mysql-connector-java-5.1.26-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/slf4j-api-1.7.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/slf4j-log4j12-1.7.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-aop-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-beans-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-context-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-core-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-expression-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-jdbc-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-orm-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-test-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-tx-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-web-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/spring-webmvc-4.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/validation-api-1.0.0.GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/SSMf/aspectj-1.7.1.jar" />
+          <element id="file-copy" path="D:/java/lib/jstl.jar" />
+          <element id="file-copy" path="D:/java/lib/standard.jar" />
+          <element id="file-copy" path="D:/java/apache-tomcat-9.0.0.M22/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/java/lib/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="D:/java/apache-tomcat-9.0.0.M22/lib/jsp-api.jar" />
+          <element id="file-copy" path="D:/java/apache-tomcat-9.0.0.M22/lib/servlet-api.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Resum/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.list_center{
+}
+.list_center input{
+    width:278px;
+    height:30px;
+    border:1px solid #b2bfc8;
+    line-height:30px;
+}
+.submit input{
+    width:70px;
+    heigth:40px;
+    border:1px;
+}
+.word_center{
+    width:100%;height:600px;  /*设置div的大小*/
+    border:0px;    /*边框*/
+    text-align: center;        /*文字水平居中对齐*/
+    line-height: 600px;        /*设置文字行距等于div的高度*/
+    overflow:hidden;
+}
