@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d17a0ca-29d4-4cd9-8440-2f141bb8be23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bean1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmall/dao/OrderItemDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmall/dao/ReviewDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmall/filter/BackServletFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmall/servlet/CategoryServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tmall/test/TestDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmall/bean/Order.java" afterPath="$PROJECT_DIR$/src/tmall/bean/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmall/bean/Product.java" afterPath="$PROJECT_DIR$/src/tmall/bean/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmall/bean/Review.java" afterPath="$PROJECT_DIR$/src/tmall/bean/Review.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmall/dao/OrderDao.java" afterPath="$PROJECT_DIR$/src/tmall/dao/OrderDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tmall/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/tmall/dao/ProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmall.iml" afterPath="$PROJECT_DIR$/tmall.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tmall/dao/CategoryDAO.java" afterPath="$PROJECT_DIR$/src/tmall/dao/CategoryDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tmall/dao/ProductImageDAO.java" afterPath="$PROJECT_DIR$/src/tmall/dao/ProductImageDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tmall/dao/PropertyDAO.java" afterPath="$PROJECT_DIR$/src/tmall/dao/PropertyDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tmall/dao/PropertyValueDAO.java" afterPath="$PROJECT_DIR$/src/tmall/dao/PropertyValueDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tmall/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/tmall/dao/UserDao.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/web/WEB-INF/page/fetch.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/web/WEB-INF/page/help.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/web/WEB-INF/page/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/out/artifacts/IpWeb_war_exploded/WEB-INF/lib/tomcat-api.jar" afterPath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/out/artifacts/IpWeb_war_exploded/WEB-INF/lib/tomcat-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring/Resum/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Spring/Resum/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/out/artifacts/IpWeb_war_exploded/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/../../Spring/Spring&amp;Mybatis/IpWeb/out/artifacts/IpWeb_war_exploded/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,10 +151,8 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#5619#5620#0" expanded="false" />
                 <element signature="e#5665#5666#0" expanded="false" />
-                <element signature="e#5762#5769#0" expanded="false" />
                 <element signature="e#7777#7778#0" expanded="false" />
                 <element signature="e#7843#7844#0" expanded="false" />
-                <element signature="e#7971#7978#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -188,11 +173,8 @@
                 <element signature="e#3391#3392#0" expanded="false" />
                 <element signature="e#3433#3434#0" expanded="false" />
                 <element signature="e#3484#3485#0" expanded="false" />
-                <element signature="e#3593#3602#0" expanded="false" />
                 <element signature="e#5064#5065#0" expanded="false" />
                 <element signature="e#5110#5111#0" expanded="false" />
-                <element signature="e#5209#5218#0" expanded="false" />
-                <element signature="e#8218#8227#0" expanded="false" />
                 <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
                 <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
                 <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -215,13 +197,10 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#3679#3680#0" expanded="false" />
                 <element signature="e#3737#3738#0" expanded="false" />
-                <element signature="e#3856#3867#0" expanded="false" />
                 <element signature="e#5098#5099#0" expanded="false" />
                 <element signature="e#5157#5158#0" expanded="false" />
-                <element signature="e#5277#5288#0" expanded="false" />
                 <element signature="e#7281#7282#0" expanded="false" />
                 <element signature="e#7342#7343#0" expanded="false" />
-                <element signature="e#7464#7475#0" expanded="false" />
                 <marker date="1497101273787" expanded="true" signature="518:549" ph="SELECT count... orderitem" />
                 <marker date="1497101273787" expanded="true" signature="845:888" ph="insert into orderitem... " />
                 <marker date="1497101273787" expanded="true" signature="1674:1738" ph="update Order... " />
@@ -245,8 +224,6 @@
                 <element signature="imports" expanded="false" />
                 <element signature="e#4051#4052#0" expanded="false" />
                 <element signature="e#4097#4098#0" expanded="false" />
-                <element signature="e#4206#4221#0" expanded="false" />
-                <element signature="e#5350#5365#0" expanded="false" />
                 <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
                 <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
                 <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
@@ -267,7 +244,6 @@
               <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#1833#1843#0" expanded="false" />
                 <element signature="e#3142#3143#0" expanded="false" />
                 <element signature="e#3188#3189#0" expanded="false" />
                 <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -298,7 +274,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -365,10 +341,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="904" />
+    <option name="x" value="-8" />
+    <option name="y" value="-7" />
+    <option name="width" value="1381" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -388,9 +364,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -636,13 +612,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/JavaLearn/Spring/helloSpring/lib/spring-tx-4.3.8.RELEASE.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring/helloSpring/lib/spring-tx-4.3.8.RELEASE.jar!/" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -1300,6 +1276,7 @@
       <workItem from="1497517416246" duration="3760000" />
       <workItem from="1497849097034" duration="2712000" />
       <workItem from="1498565566071" duration="592000" />
+      <workItem from="1502088818663" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="部分DAO文件编写">
       <created>1495007619910</created>
@@ -1319,14 +1296,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80636000" />
+    <option name="totallyTimeSpent" value="80755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1456" height="904" extended-state="1" />
+    <frame x="-8" y="-7" width="1381" height="771" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1342,11 +1319,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36503857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912987" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.097099625" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2636103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28236184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964131" sideWeight="0.5051948" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964131" sideWeight="0.5051948" order="7" side_tool="true" content_ui="tabs" />
@@ -1426,6 +1403,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="部分DAO文件编写" />
     <option name="LAST_COMMIT_MESSAGE" value="部分DAO文件编写" />
   </component>
@@ -1456,10 +1436,8 @@
             <element signature="imports" expanded="false" />
             <element signature="e#5619#5620#0" expanded="false" />
             <element signature="e#5665#5666#0" expanded="false" />
-            <element signature="e#5762#5769#0" expanded="false" />
             <element signature="e#7777#7778#0" expanded="false" />
             <element signature="e#7843#7844#0" expanded="false" />
-            <element signature="e#7971#7978#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1478,11 +1456,8 @@
             <element signature="e#3391#3392#0" expanded="false" />
             <element signature="e#3433#3434#0" expanded="false" />
             <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3593#3602#0" expanded="false" />
             <element signature="e#5064#5065#0" expanded="false" />
             <element signature="e#5110#5111#0" expanded="false" />
-            <element signature="e#5209#5218#0" expanded="false" />
-            <element signature="e#8218#8227#0" expanded="false" />
             <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
             <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
             <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -1501,7 +1476,6 @@
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1833#1843#0" expanded="false" />
             <element signature="e#3142#3143#0" expanded="false" />
             <element signature="e#3188#3189#0" expanded="false" />
             <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -1529,8 +1503,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#4051#4052#0" expanded="false" />
             <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4206#4221#0" expanded="false" />
-            <element signature="e#5350#5365#0" expanded="false" />
             <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
@@ -1569,13 +1541,10 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3679#3680#0" expanded="false" />
             <element signature="e#3737#3738#0" expanded="false" />
-            <element signature="e#3856#3867#0" expanded="false" />
             <element signature="e#5098#5099#0" expanded="false" />
             <element signature="e#5157#5158#0" expanded="false" />
-            <element signature="e#5277#5288#0" expanded="false" />
             <element signature="e#7281#7282#0" expanded="false" />
             <element signature="e#7342#7343#0" expanded="false" />
-            <element signature="e#7464#7475#0" expanded="false" />
             <marker date="1497101273787" expanded="true" signature="518:549" ph="SELECT count... orderitem" />
             <marker date="1497101273787" expanded="true" signature="845:888" ph="insert into orderitem... " />
             <marker date="1497101273787" expanded="true" signature="1674:1738" ph="update Order... " />
@@ -1613,7 +1582,6 @@
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1833#1843#0" expanded="false" />
             <element signature="e#3142#3143#0" expanded="false" />
             <element signature="e#3188#3189#0" expanded="false" />
             <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -1640,11 +1608,8 @@
             <element signature="e#3391#3392#0" expanded="false" />
             <element signature="e#3433#3434#0" expanded="false" />
             <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3593#3602#0" expanded="false" />
             <element signature="e#5064#5065#0" expanded="false" />
             <element signature="e#5110#5111#0" expanded="false" />
-            <element signature="e#5209#5218#0" expanded="false" />
-            <element signature="e#8218#8227#0" expanded="false" />
             <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
             <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
             <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -1712,8 +1677,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#4051#4052#0" expanded="false" />
             <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4206#4221#0" expanded="false" />
-            <element signature="e#5350#5365#0" expanded="false" />
             <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
@@ -1776,7 +1739,6 @@
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1833#1843#0" expanded="false" />
             <element signature="e#3142#3143#0" expanded="false" />
             <element signature="e#3188#3189#0" expanded="false" />
             <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -1803,11 +1765,8 @@
             <element signature="e#3391#3392#0" expanded="false" />
             <element signature="e#3433#3434#0" expanded="false" />
             <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3593#3602#0" expanded="false" />
             <element signature="e#5064#5065#0" expanded="false" />
             <element signature="e#5110#5111#0" expanded="false" />
-            <element signature="e#5209#5218#0" expanded="false" />
-            <element signature="e#8218#8227#0" expanded="false" />
             <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
             <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
             <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -1828,13 +1787,10 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3679#3680#0" expanded="false" />
             <element signature="e#3737#3738#0" expanded="false" />
-            <element signature="e#3856#3867#0" expanded="false" />
             <element signature="e#5098#5099#0" expanded="false" />
             <element signature="e#5157#5158#0" expanded="false" />
-            <element signature="e#5277#5288#0" expanded="false" />
             <element signature="e#7281#7282#0" expanded="false" />
             <element signature="e#7342#7343#0" expanded="false" />
-            <element signature="e#7464#7475#0" expanded="false" />
             <marker date="1497101273787" expanded="true" signature="518:549" ph="SELECT count... orderitem" />
             <marker date="1497101273787" expanded="true" signature="845:888" ph="insert into orderitem... " />
             <marker date="1497101273787" expanded="true" signature="1674:1738" ph="update Order... " />
@@ -1903,8 +1859,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#4051#4052#0" expanded="false" />
             <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4206#4221#0" expanded="false" />
-            <element signature="e#5350#5365#0" expanded="false" />
             <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
@@ -1959,7 +1913,6 @@
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1833#1843#0" expanded="false" />
             <element signature="e#3142#3143#0" expanded="false" />
             <element signature="e#3188#3189#0" expanded="false" />
             <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -1986,11 +1939,8 @@
             <element signature="e#3391#3392#0" expanded="false" />
             <element signature="e#3433#3434#0" expanded="false" />
             <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3593#3602#0" expanded="false" />
             <element signature="e#5064#5065#0" expanded="false" />
             <element signature="e#5110#5111#0" expanded="false" />
-            <element signature="e#5209#5218#0" expanded="false" />
-            <element signature="e#8218#8227#0" expanded="false" />
             <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
             <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
             <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -2011,13 +1961,10 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3679#3680#0" expanded="false" />
             <element signature="e#3737#3738#0" expanded="false" />
-            <element signature="e#3856#3867#0" expanded="false" />
             <element signature="e#5098#5099#0" expanded="false" />
             <element signature="e#5157#5158#0" expanded="false" />
-            <element signature="e#5277#5288#0" expanded="false" />
             <element signature="e#7281#7282#0" expanded="false" />
             <element signature="e#7342#7343#0" expanded="false" />
-            <element signature="e#7464#7475#0" expanded="false" />
             <marker date="1497101273787" expanded="true" signature="518:549" ph="SELECT count... orderitem" />
             <marker date="1497101273787" expanded="true" signature="845:888" ph="insert into orderitem... " />
             <marker date="1497101273787" expanded="true" signature="1674:1738" ph="update Order... " />
@@ -2086,8 +2033,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#4051#4052#0" expanded="false" />
             <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4206#4221#0" expanded="false" />
-            <element signature="e#5350#5365#0" expanded="false" />
             <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
@@ -2171,7 +2116,6 @@
           <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#1833#1843#0" expanded="false" />
             <element signature="e#3142#3143#0" expanded="false" />
             <element signature="e#3188#3189#0" expanded="false" />
             <marker date="1497100479134" expanded="true" signature="561:597" ph="INSERT into category... " />
@@ -2210,10 +2154,8 @@
             <element signature="imports" expanded="false" />
             <element signature="e#5619#5620#0" expanded="false" />
             <element signature="e#5665#5666#0" expanded="false" />
-            <element signature="e#5762#5769#0" expanded="false" />
             <element signature="e#7777#7778#0" expanded="false" />
             <element signature="e#7843#7844#0" expanded="false" />
-            <element signature="e#7971#7978#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2232,11 +2174,8 @@
             <element signature="e#3391#3392#0" expanded="false" />
             <element signature="e#3433#3434#0" expanded="false" />
             <element signature="e#3484#3485#0" expanded="false" />
-            <element signature="e#3593#3602#0" expanded="false" />
             <element signature="e#5064#5065#0" expanded="false" />
             <element signature="e#5110#5111#0" expanded="false" />
-            <element signature="e#5209#5218#0" expanded="false" />
-            <element signature="e#8218#8227#0" expanded="false" />
             <marker date="1497167317727" expanded="true" signature="921:962" ph="select count... Product" />
             <marker date="1497167317727" expanded="true" signature="1116:1162" ph="insert into Product... " />
             <marker date="1497167317727" expanded="true" signature="1470:1583" ph="update Produ... " />
@@ -2257,13 +2196,10 @@
             <element signature="imports" expanded="false" />
             <element signature="e#3679#3680#0" expanded="false" />
             <element signature="e#3737#3738#0" expanded="false" />
-            <element signature="e#3856#3867#0" expanded="false" />
             <element signature="e#5098#5099#0" expanded="false" />
             <element signature="e#5157#5158#0" expanded="false" />
-            <element signature="e#5277#5288#0" expanded="false" />
             <element signature="e#7281#7282#0" expanded="false" />
             <element signature="e#7342#7343#0" expanded="false" />
-            <element signature="e#7464#7475#0" expanded="false" />
             <marker date="1497101273787" expanded="true" signature="518:549" ph="SELECT count... orderitem" />
             <marker date="1497101273787" expanded="true" signature="845:888" ph="insert into orderitem... " />
             <marker date="1497101273787" expanded="true" signature="1674:1738" ph="update Order... " />
@@ -2303,8 +2239,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#4051#4052#0" expanded="false" />
             <element signature="e#4097#4098#0" expanded="false" />
-            <element signature="e#4206#4221#0" expanded="false" />
-            <element signature="e#5350#5365#0" expanded="false" />
             <marker date="1497100478782" expanded="true" signature="453:485" ph="SELECT count... propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="782:827" ph="INSERT into propertyvalue" />
             <marker date="1497100478782" expanded="true" signature="1433:1490" ph="UPDATE prope... " />
