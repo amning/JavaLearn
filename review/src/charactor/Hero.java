@@ -6,6 +6,12 @@ package charactor;
 public class Hero {
     private String name;
     private int id;
+    public Hero(){
+
+    }
+    public Hero(String name) {
+        this.name = name;
+    }
 
     @Override
     public String toString() {
